@@ -8,7 +8,17 @@ The easiest way to install the PianoKeys library is through the Arduino Library 
 If you are using the library on your Raspberry Pi then you need to manually install it.
 
 ## Connecting the Piano Board
-The `BEEPER` can be connected to any free digital pin that suits your project to use with the [`tone`](https://www.arduino.cc/reference/en/language/functions/advanced-io/tone/) function. In the examples digital pin 3 is used. Connecting the `BEEPER` is optional. If you only want to use the Piano Board for its piano keys only, because you are providing your own audio source, such as the [OPL2 Audio Board](https://www.tindie.com/products/cheerful/opl2-audio-board/), then there is no need to connect this pin.
+The Piano Board is connected to the SPI bus of your Arduino. The +5v and GND are connected to the respective pins.
+| Board | Arduino Pin |
+| --- | --- |
+| `MISO` | 12 |
+| `SCK` | 13 |
+| `/SS`<sup>1</sup> | 10 |
+| `BEEPER`<sup>2</sup> | 3 |
+
+<sup>1</sup> The `/SS` line can be connected to any digital I/O pin. You can set it in the constructor.
+
+<sup>2</sup> The `BEEPER` can be connected to any free digital pin that suits your project to use with the [`tone`](https://www.arduino.cc/reference/en/language/functions/advanced-io/tone/) function. In the examples digital pin 3 is used. Connecting the `BEEPER` is optional. If you only want to use the Piano Board for its piano keys only, because you are providing your own audio source, such as the [OPL2 Audio Board](https://www.tindie.com/products/cheerful/opl2-audio-board/), then there is no need to connect this pin.
 
 ## Description of API
 ### Constructor `PianoKeys(const byte alternatePinSS)`
