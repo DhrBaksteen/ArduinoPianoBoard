@@ -1,0 +1,46 @@
+#######################################
+# Syntax Coloring Map For PianoKeys
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+PianoKeys	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+updateKeys     KEYWORD2
+getKeyMask     KEYWORD2
+getKeyState    KEYWORD2
+isKeyDown      KEYWORD2
+wasKeyPressed  KEYWORD2
+wasKeyReleased KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+KEY_C  LITERAL1
+KEY_CS LITERAL1
+KEY_D  LITERAL1
+KEY_DS LITERAL1
+KEY_E  LITERAL1
+KEY_F  LITERAL1
+KEY_FS LITERAL1
+KEY_G  LITERAL1
+KEY_GS LITERAL1
+KEY_A  LITERAL1
+KEY_AS LITERAL1
+KEY_B  LITERAL1
+KEY_C2 LITERAL1
+KEY_USER_1 LITERAL1
+KEY_USER_2 LITERAL1
+KEY_USER_3 LITERAL1
+DEFAULT_PIN_SS LITERAL1
