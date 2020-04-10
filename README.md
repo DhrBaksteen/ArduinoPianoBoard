@@ -1,6 +1,8 @@
 # Piano Keyboard Arduino Library
 This library provides an easy to use interface from your Arduino code to the Cheerful Electronic Piano Board. It provides function to read the current state of the buttons as well as detecting transitions in button states. Several examples are provided that you can use to get familiar with the library or as the basis for your own projects.
 
+![](https://raw.githubusercontent.com/DhrBaksteen/ArduinoPianoBoard/master/extra/PianoBoard.jpg)
+
 ## Installing the library
 The easiest way to install the PianoKeys library is through the Arduino Library Manager in the Arduino IDE. To install the library open the IDE, click the *Shetch* menu and then *Include Library* > *Manage Libraries...*. This will open the Arduino Library Manager. In the window that appears search for *"Arduino Piano Board"* and click install. After installing you can start using the PianoKeys library and find its examples in the *File* > *Examples* menu. You can also refer to [this page](https://www.arduino.cc/en/guide/libraries) for more information about the Arduino Library Manager or how to install the library manually.
 
