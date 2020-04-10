@@ -17,7 +17,7 @@
  * /SS can be set to an alternate pin using the alternate constructor. For example to use pin 7: PianoKeys piano(7);
  *
  *
- * Current version is v1.0.0, March 2020
+ * Current version is v1.0.1, April 2020
  * Most recent version can be found on Github: https://github.com/DhrBaksteen/ArduinoPianoKeys
  */
 
